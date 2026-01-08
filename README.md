@@ -9,6 +9,6 @@ This is my personal portfolio site built to share my journey, projects, achievem
 
 🛠️ Built with HTML, CSS, and JavaScript  
 🌐 Hosted on GitHub Pages  
-🎯 [Check out my Newsletter]([https://your-newsletter-link.com](https://the-insight-letter.beehiiv.com/?modal=signup))
+🎯 [Check out my Newsletter]([https://your-newsletter-link.com](https://the-insight-letter.beehiiv.com/?modal=signup)
 
 ---Stay curious — and thanks for visiting! 😊
