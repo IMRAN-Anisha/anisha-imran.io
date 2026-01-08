@@ -7,7 +7,7 @@ function initTypewriter() {
   const phrases = [
     "Bachelor of Software Engineering (Honours).",
     "Front End Developer · Growing into Fullstack.",
-    "IBM · Meta · Microsoft credentials."
+    "IBM · Meta · Microsoft coursework credentials."
   ];
 
   let currentPhrase = 0;

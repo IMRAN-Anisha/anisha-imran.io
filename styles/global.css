@@ -1,0 +1,31 @@
+/* Site wrapper with subtle white border and framing */
+.site-wrapper {
+  position: relative;
+  margin: 20px auto;
+  max-width: 1200px;
+  background: #F5EFEB; /* same beige as before */
+  border: 8px solid #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0 6px 30px rgba(10, 10, 10, 0.06);
+  min-height: 100vh;
+}
+
+/* Ensure main content sections sit above the particles */
+.hero-section,
+.about-section,
+.experience-section,
+.projects-section,
+.skills-section,
+.certifications-section {
+  position: relative;
+  z-index: 2;
+}
+
+/* Make sure the canvas covers the full viewport and sits behind content */
+.background-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}

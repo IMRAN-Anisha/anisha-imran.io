@@ -1,0 +1,42 @@
+/* Newsletter Section */
+.newsletter-section {
+  padding: 96px clamp(64px, 10vw, 140px);
+  max-width: 1100px;  /* matches other sections */
+  margin: 0 auto;
+  text-align: center;
+  color: #2F4156;
+}
+
+/* Section Title (matches all other h2 titles) */
+.newsletter-section .section-title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 600;
+  margin-bottom: 48px;
+  text-align: left; /* same as other sections */
+}
+
+/* Center the iframe below the title */
+.newsletter-embed {
+  display: flex;
+  justify-content: center;
+}
+
+/* Make iframe longer and visible */
+.newsletter-embed iframe {
+  width: 100%;
+  max-width: 750px;   /* or whatever width you prefer */
+  min-height: 300px;  /* longer so the full form is visible */
+  border-radius: 14px;
+  border: 1px solid rgba(47, 65, 86, 0.08);
+  background: rgba(245, 239, 235, 0.95);
+  box-shadow: 0 10px 20px rgba(47, 65, 86, 0.08);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .newsletter-embed iframe {
+    width: 100%;
+    min-height: 550px; /* slightly shorter for smaller screens */
+  }
+}

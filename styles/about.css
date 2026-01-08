@@ -1,0 +1,81 @@
+/* =========================
+   About Section
+   ========================= */
+
+.about-section {
+  position: relative;
+  z-index: 2;
+  padding: 96px clamp(64px, 10vw, 140px);
+  background: transparent;
+}
+
+/* ---------- Section Title ---------- */
+
+.about-section .section-title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 600;
+  color: #2F4156;
+  margin-bottom: 32px;
+}
+
+/* ---------- Layout ---------- */
+
+.about-grid {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+/* ---------- Text ---------- */
+
+.about-text {
+  flex: 1 1 60%;
+}
+
+.about-text p {
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  line-height: 1.9;
+  color: rgba(47, 65, 86, 0.9);
+  max-width: 620px;
+}
+
+/* ---------- LinkedIn Badge ---------- */
+
+.about-badge {
+  flex: 0 0 auto;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Slight refinement without fighting LinkedIn styles */
+.about-badge .badge-base {
+  transform: scale(0.95);
+  filter: saturate(0.95);
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 72px 32px;
+  }
+
+  .about-grid {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .about-badge {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .about-text p {
+    font-size: 14.5px;
+  }
+}

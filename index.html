@@ -5,104 +5,165 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anisha Imran | Portfolio</title>
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-<!-- Styles -->
 <link rel="stylesheet" href="styles/home.css">
-<!-- Fonts -->
+<link rel="stylesheet" href="styles/about.css">
+<link rel="stylesheet" href="styles/experience.css">
+<link rel="stylesheet" href="styles/projects.css">
+<link rel="stylesheet" href="styles/skills.css">
+<link rel="stylesheet" href="styles/contact.css">
+<link rel="stylesheet" href="styles/newsletter.css">
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Fira+Code&display=swap" rel="stylesheet">
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 <body>
-
-<!-- ---------- Hero Section ---------- -->
-<section class="hero-section" id="home">
   <canvas class="background-canvas" id="particles-canvas"></canvas>
-  <div class="vertical-signature">Anisha Imran</div> 
-  <div class="hero-content">
-    <h1 id="static-text"></h1>
-    <h2><span id="typewriter-text"></span><span class="cursor"></span></h2>
-    <p class="tagline">Driven by curiosity, powered by code, building what's next.</p>
+  <div class="site-wrapper">
+  <section class="hero-section" id="home">
+    <div class="vertical-signature">Anisha Imran</div> 
+    <div class="hero-content">
+      <h1 id="static-text"></h1>
+      <h2><span id="typewriter-text"></span><span class="cursor"></span></h2>
+      <p class="tagline">Driven by curiosity, powered by code, building what's next.</p>
+    </div>
+  </section>
+
+  <section class="about-section" id="aboutme">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I’m driven by curiosity and a passion for building and learning. From my first lines of code on Scratch 
+          to developing full-stack apps, I’ve focused on creating solutions that matter. Along the way, I’ve balanced 
+          university, part-time work, and tech projects while mentoring students and sharing insights through a weekly 
+          newsletter. My goal is simple: to keep building, learning, and sharing, turning ideas into real-world impact...because why not?
+        </p>
+      </div>
+
+      <div class="about-badge" aria-hidden="false">
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="anisha-imran0311" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://au.linkedin.com/in/anisha-imran0311?trk=profile-badge"></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section" id="experience">
+    <h2 class="section-title">My Experience</h2>
+    <div class="experience-wrapper">
+      <!-- Left: Company Tabs -->
+      <nav class="company-tabs" role="tablist">
+        <ul>
+          <li class="active" data-tab="0">Country Therapy</li>
+          <li data-tab="1">Smartbuy Property Advisory</li>
+          <li data-tab="2">Outside Tech</li>
+        </ul>
+        <div class="tab-indicator"></div>
+      </nav>
+
+      <!-- Right: Job Details -->
+      <div class="job-details">
+        <div class="job-panel active">
+          <h3 class="job-title">Web Developer | IT & Media Officer  <span></span></h3>
+          <p class="job-date">November 2025 – Present</p>
+          <ul class="job-bullets">
+            <li>Built large-scale machine learning systems with massive impact.</li>
+            <li>Led end-to-end development of key features.</li>
+            <li>Collaborated with world-class teams.</li>
+          </ul>
+        </div>
+        <div class="job-panel">
+          <h3 class="job-title">Front End Developer <span></span></h3>
+          <p class="job-date">June 2023 – December 2024</p>
+          <ul class="job-bullets">
+            <li>Developed distributed systems for global services.</li>
+            <li>Optimized performance and reduced costs significantly.</li>
+          </ul>
+        </div>
+        <div class="job-panel">
+          <h3 class="job-title">Outside Tech<span></span></h3>
+          <p class="job-date">Summer 2022</p>
+          <ul class="job-bullets">
+            <li>Contributed to Instagram features used by millions.</li>
+            <li>Worked on frontend and backend improvements.</li>
+          </ul>
+        </div>
+        <div class="job-panel">
+          <h3 class="job-title">Frontend Engineer <span>@ Apple</span></h3>
+          <p class="job-date">2020 – 2022</p>
+          <ul class="job-bullets">
+            <li>Designed and built user interfaces for internal tools.</li>
+            <li>Focused on accessibility and performance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <div class="project-image">
+        <img src="assets/project1.jpg" alt="Project thumbnail">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Smart Study Planner</h3>
+        <p class="project-description">
+          A full stack productivity app designed to help students plan, track, and optimise their study routines.
+        </p>
+
+        <div class="project-tech">
+          <span>React</span>
+          <span>Node</span>
+          <span>PostgreSQL</span>
+        </div>
+
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live</a>
+        </div>
+      </div>
+      </div>
+    </article>
   </div>
 </section>
 
-<!-- ---------- About Section ---------- -->
-<section class="about-section" id="aboutme">
-  <h2 class="section-title">About Me</h2>
-  <p>
-    I’m driven by curiosity and a passion for building and learning. From my first lines of code on Scratch 
-    to developing full-stack apps, I’ve focused on creating solutions that matter. Along the way, I’ve balanced 
-    university, part-time work, and tech projects while mentoring students and sharing insights through a weekly 
-    newsletter. My goal is simple: to keep building, learning, and sharing, turning ideas into real-world impact...because why not?
-  </p>
-</section>
+<section class="contact-section" id="contactme">
+  <h2 class="section-title">Contact Me</h2>
 
-<!-- ---------- Experience Section ---------- -->
-<section class="experience-section" id="experience">
-  <h2 class="section-title">Experience</h2>
-  <div class="experience-wrapper">
-    <!-- Left: Company Tabs -->
-    <nav class="company-tabs" role="tablist">
-      <ul>
-        <li class="active" data-tab="0">Google</li>
-        <li data-tab="1">Amazon</li>
-        <li data-tab="2">Meta</li>
-        <li data-tab="3">Apple</li>
-      </ul>
-      <div class="tab-indicator"></div>
-    </nav>
-
-    <!-- Right: Job Details -->
-    <div class="job-details">
-      <div class="job-panel active">
-        <h3 class="job-title">Software Engineer <span>@ Google</span></h3>
-        <p class="job-date">January 2025 – Present</p>
-        <ul class="job-bullets">
-          <li>Built large-scale machine learning systems with massive impact.</li>
-          <li>Led end-to-end development of key features.</li>
-          <li>Collaborated with world-class teams.</li>
-        </ul>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p>Feel free to reach out for collaborations, projects, or just a chat!</p>
+      <div class="contact-buttons">
+        <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
+        <a href="https://www.linkedin.com/in/anisha-imran0311/" target="_blank" class="contact-btn">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank" class="contact-btn">GitHub</a>
       </div>
-      <div class="job-panel">
-        <h3 class="job-title">Senior Developer <span>@ Amazon</span></h3>
-        <p class="job-date">June 2023 – December 2024</p>
-        <ul class="job-bullets">
-          <li>Developed distributed systems for global services.</li>
-          <li>Optimized performance and reduced costs significantly.</li>
-        </ul>
-      </div>
-      <div class="job-panel">
-        <h3 class="job-title">Software Engineer Intern <span>@ Meta</span></h3>
-        <p class="job-date">Summer 2022</p>
-        <ul class="job-bullets">
-          <li>Contributed to Instagram features used by millions.</li>
-          <li>Worked on frontend and backend improvements.</li>
-        </ul>
-      </div>
-      <div class="job-panel">
-        <h3 class="job-title">Frontend Engineer <span>@ Apple</span></h3>
-        <p class="job-date">2020 – 2022</p>
-        <ul class="job-bullets">
-          <li>Designed and built user interfaces for internal tools.</li>
-          <li>Focused on accessibility and performance.</li>
-        </ul>
-      </div>
+    </div>
+    <div class="contact-form">
+      <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </div>
 </section>
 
-<!-- ---------- Navigation Sidebar ---------- -->
-<nav class="side-nav" id="sideNav">
-  <ul class="side-nav-list">
-    <li><a href="#home" class="side-nav-link">Home</a></li>
-    <li><a href="#aboutme" class="side-nav-link">About Me</a></li>
-    <li><a href="#experience" class="side-nav-link">Experience</a></li>
-    <li><a href="#projects" class="side-nav-link">Projects</a></li>
-    <li><a href="#skills" class="side-nav-link">Skills</a></li>
-    <li><a href="#certifications" class="side-nav-link">Certifications</a></li>
-    <li><a href="#contactme" class="side-nav-link">Contact Me</a></li>
-  </ul>
-</nav>
+<section class="newsletter-section" id="newsletter">
+  <h2 class="section-title">Subscribe to My Newsletter</h2>
+  <div class="newsletter-embed">
+    <iframe src="https://subscribe-forms.beehiiv.com/410e367e-a8df-4d3f-9db4-26d6f31ca63b" 
+      class="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
 
-<!-- Scripts -->
+<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+
+
+<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+
 <script src="script.js" defer></script>
-
 </body>
 </html>
