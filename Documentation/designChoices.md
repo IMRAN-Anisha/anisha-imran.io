@@ -44,3 +44,24 @@ nav bar:
       <li><a href="#contactme" class="side-nav-link">Contact Me</a></li>
     </ul>
   </nav>
+
+colour change
+<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script><iframe src="https://subscribe-forms.beehiiv.com/410e367e-a8df-4d3f-9db4-26d6f31ca63b" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 737px; height: 315px; margin: 0; border-radius: 0px 0px 0px 0px !important; background-color: transparent; box-shadow: 0 0 #0000; max-width: 100%;"></iframe>
+
+Modifications
+1. mobile responsive
+2. add animation to full page
+3. change button colours
+4. change nav bar colour
+5. change newsletter background
+6. change colour of typewriter
+7. change size/font of the text underneath
+8. increase the font size in the about section
+9. increase linkedin badge size
+10. give experience navigation functionality
+11. add line (vertical divider) to experience
+12. add projects from github
+12. add more text to the contact section to make the buttons line up 
+13. change the colour of the buttons to match their own logo 
+
+completed:

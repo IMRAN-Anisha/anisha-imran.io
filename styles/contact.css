@@ -58,7 +58,7 @@
 }
 
 .contact-btn:hover {
-  background-color: #64ffda;
+  background-color: #337ce8;
   color: #2F4156;
   box-shadow: 0 4px 12px rgba(47,65,86,0.15);
   transform: translateY(-2px);
@@ -92,7 +92,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #64ffda;
+  border-color: #337ce8;
 }
 
 .contact-form button {
@@ -100,7 +100,7 @@
   padding: 12px 28px;
   border-radius: 8px;
   border: none;
-  background-color: #64ffda;
+  background-color: #337ce8;
   color: #2F4156;
   font-family: 'Fira Code', monospace;
   font-size: 14px;
@@ -109,7 +109,7 @@
 }
 
 .contact-form button:hover {
-  background-color: rgba(100,255,218,0.8);
+  background-color: rgba(51, 124, 232, 0.8);
   box-shadow: 0 4px 12px rgba(47,65,86,0.15);
   transform: translateY(-2px);
 }

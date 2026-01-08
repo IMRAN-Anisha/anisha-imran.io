@@ -51,7 +51,7 @@
   left: 0;
   height: 3px;
   width: 0;
-  background: #64ffda;
+  background: #337ce8;
   border-radius: 2px;
   transition: left 0.3s ease, width 0.3s ease;
 }
